@@ -1,0 +1,19 @@
+[2026-05-01 10:23:45] TEST START: rv32i-add
+[2026-05-01 10:23:46] TEST PASS: rv32i-add (0.82s)
+[2026-05-01 10:23:46] TEST START: rv32i-sub
+[2026-05-01 10:23:47] TEST PASS: rv32i-sub (0.65s)
+[2026-05-01 10:23:47] TEST START: rv32i-sll
+[2026-05-01 10:23:48] TEST FAIL: rv32i-sll (1.02s)
+[2026-05-01 10:23:48] ERROR: Signature mismatch at line 42
+[2026-05-01 10:23:48] TEST START: rv32i-srl
+[2026-05-01 10:23:48] TEST SKIP: rv32i-srl (not supported)
+[2026-05-01 10:23:48] TEST START: rv32i-xor
+[2026-05-01 10:23:49] TEST PASS: rv32i-xor (0.73s)
+[2026-05-01 10:23:49] TEST START: rv32i-or
+[2026-05-01 10:23:50] TEST PASS: rv32i-or (0.88s)
+[2026-05-01 10:23:50] TEST START: rv32i-and
+[2026-05-01 10:23:51] TEST PASS: rv32i-and (0.71s)
+[2026-05-01 10:23:51] TEST START: rv32i-lw
+[2026-05-01 10:23:52] TEST FAIL: rv32i-lw (1.15s)
+[2026-05-01 10:23:52] ERROR: Memory access error
+[2026-05-01 10:23:52] SUMMARY: 7 tests, 5 passed, 2 failed, 1 skipped
