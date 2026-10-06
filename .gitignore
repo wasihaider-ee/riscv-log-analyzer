@@ -1,0 +1,17 @@
+# Generated reports
+output/
+
+# Temporary files
+*.tmp
+
+# Log files
+*.log
+!test_data/*.log
+
+# Editor files
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
